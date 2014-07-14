@@ -1,0 +1,14 @@
+{
+  "name": "timer",
+  "description": "Simple timer component.",
+  "dependencies": {
+    "component/emitter": "1.1.2",
+    "matchdav/inherits": "*"
+  },
+  "development": {},
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "repo": "https://raw.githubusercontent.com/matchdav/timer"
+}
