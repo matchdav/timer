@@ -1,7 +1,7 @@
 {
   "name": "timer",
   "description": "Simple timer component.",
-  "version":"0.0.1",
+  "version":"v0.0.1",
   "dependencies": {
     "component/emitter": "1.1.2",
     "matchdav/inherits": "*"
