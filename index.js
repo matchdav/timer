@@ -18,6 +18,9 @@ function Timer(limit, wait){
 inherits(Timer,Emitter);
 
 Timer.prototype.now = function() {
+	if(typeof performance === 'object' && typeof performance.now === 'function') {
+		return performance.now();
+	}
 	return (new Date(Date.now())).getTime();
 };
 
